@@ -27,7 +27,6 @@ form {
     background-color: rgb(255, 255, 255, 0.6);
     /* background-blend-mode: darken;  */
     max-height: 600px;
-    width: 50%;
     gap: 20px;
 }
 
@@ -90,15 +89,14 @@ button:hover {
     font-size: 20px;
 }
 
-.form-icon a:nth-child(1){
-    color:red;
+.form-icon a:nth-child(1) {
+    color: red;
 }
 
-.form-icon a:nth-child(2){
-    color:blue;
+.form-icon a:nth-child(2) {
+    color: blue;
 }
 
-.form-icon a:nth-child(3){
-    color:black;
+.form-icon a:nth-child(3) {
+    color: black;
 }
-
