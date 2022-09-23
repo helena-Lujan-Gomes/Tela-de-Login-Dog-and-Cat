@@ -100,3 +100,29 @@ button:hover {
 .form-icon a:nth-child(3) {
     color: black;
 }
+
+@media(max-width: 768px){
+
+    form{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .form-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #imagem{
+        display: none;
+    }
+
+    .form-button{
+        width: 100%;
+    }
+
+    .form-icon{
+        font-size: 25px;
+    }
+}
